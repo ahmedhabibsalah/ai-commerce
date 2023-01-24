@@ -1,7 +1,6 @@
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import { useCart } from "../context/CartContext";
 import formatCurrency from "../util/formatCurrency";
-import StoreItemModal from "./StoreItemModal";
 
 export default function StoreItem({ item }) {
   const { addToCart } = useCart();
